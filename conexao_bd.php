@@ -3,7 +3,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$bd = "empresa";
+$bd = "escola";
 
 // Criando nova conexão 
 global $conn;
@@ -45,7 +45,3 @@ function retornarDados($sql) {
         //return 0;
     }
 }
-?>
-
-
-
